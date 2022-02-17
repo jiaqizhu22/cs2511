@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="instructions" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.InstructionsController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../images/old-grunge-cement-wall-backgrounds_34552-195.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="39.0" layoutY="106.0" prefHeight="266.0" prefWidth="525.0">
+         <children>
+            <ImageView fitHeight="43.0" fitWidth="31.0" layoutX="29.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/exit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="31.0" layoutX="29.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/boulder.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="29.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/closed_door.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="31.0" layoutX="29.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/pressure_plate.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="36.0" layoutX="192.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/brilliant_blue_new.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="194.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/key.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="31.0" layoutX="29.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/portal.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="31.0" layoutX="388.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/deep_elf_master_archer.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="31.0" layoutX="192.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/greatsword_1_new.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="388.0" layoutY="32.0">
+               <image>
+                  <Image url="@../../images/human_new.png" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="194.0" layoutY="32.0">
+               <image>
+                  <Image url="@../../images/gold_pile.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="65.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit ">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="63.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Door">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="65.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teleport Portal">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="67.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Floor Switch">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="63.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boulder">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="229.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invincibility Potion">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="230.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sword">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="230.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Treasure">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="235.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Key">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="418.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enemy">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="66.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Label layoutX="58.0" layoutY="2.0" text="Board" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="192.0" layoutY="2.0" text="Collectables" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="387.0" layoutY="2.0" text="Characters" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Georgia" size="20.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" layoutX="63.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="triggers floor switch">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="231.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="opens Door">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="229.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="up to 5 hits">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="229.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lasts 10 movements">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="420.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <ImageView layoutX="194.0" layoutY="208.0">
+               <image>
+                  <Image url="@../../images/bubbly.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="229.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Freezing Potion">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="229.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="freezes enemies 10 movements">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <ImageView layoutX="388.0" layoutY="121.0">
+               <image>
+                  <Image url="@../../images/gnome.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="417.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gnome">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="55.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sends you anywhere">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="416.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="gives you a 'gift'">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="414.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="can kill you">
+               <font>
+                  <Font name="Georgia" size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="backBtn" layoutX="468.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#backtoMain" style="-fx-background-image: url('/brick_brown_0.png');" text="Back" textFill="#0a0909">
+               <font>
+                  <Font name="Georgia" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="209.0" layoutY="14.0" prefHeight="52.0" prefWidth="185.0" text="Instruction" textFill="WHITE">
+         <font>
+            <Font name="Purisa Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="54.0" prefHeight="52.0" prefWidth="609.0" text="Use ARROW keys to move, SPACE to pick up, T to talk to a Gnome." textFill="WHITE">
+         <font>
+            <Font name="Purisa Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

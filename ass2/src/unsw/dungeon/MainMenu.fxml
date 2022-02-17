@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainMenu" prefHeight="270.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.MainMenuController">
+   <children>
+      <ImageView fitHeight="280.0" fitWidth="470.0" layoutX="-7.0" layoutY="-8.0">
+         <image>
+            <Image url="@../../images/menuBg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="180.0" layoutY="14.0" text="Menu" textFill="#f2e9e9">
+         <font>
+            <Font name="El Abogado Loco" size="60.0" />
+         </font>
+      </Label>
+      <Button fx:id="playBtn" layoutX="205.0" layoutY="94.0" mnemonicParsing="false" onMouseClicked="#startGame" onMousePressed="#startGame" text="Play">
+         <font>
+            <Font name="Purisa Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="instructionBtn" layoutX="173.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#showGameInstructions" onMousePressed="#showGameInstructions" text="Instructions">
+         <font>
+            <Font name="Purisa Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="exitBtn" layoutX="205.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#exitGame" onMousePressed="#exitGame" text="Exit">
+         <font>
+            <Font name="Purisa Bold" size="13.0" />
+         </font></Button>
+      <ImageView fitHeight="66.0" fitWidth="58.0" layoutX="53.0" layoutY="130.0">
+         <image>
+            <Image url="@../../images/greatsword_1_new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="86.0" layoutX="299.0" layoutY="106.0">
+         <image>
+            <Image url="@../../images/human_new.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
