@@ -1,0 +1,15 @@
+{ "command": "room", "venue": "Webster", "room": "Training Room 1", "size": "small" }
+{ "command": "room", "venue": "Webster", "room": "Music Room", "size": "medium" }
+{ "command": "room", "venue": "ElecEng Building", "room": "Makerspace", "size": "large" }
+{ "command": "room", "venue": "MechEng Building", "room": "Makerspace", "size": "large" }
+{ "command": "request", "id": "Safety Induction Training", "start": "2020-07-01", "end": "2020-07-05", "small": 0, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Water Jet Training", "start": "2020-06-30", "end": "2020-07-03", "small": 0, "medium": 0, "large": 2 }
+{ "command": "request", "id": "Water Jet Training", "start": "2020-06-30", "end": "2020-07-03", "small": 0, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Conference", "start": "2020-07-05", "end": "2020-07-05", "small": 0, "medium": 1, "large": 1 }
+{ "command": "request", "id": "Conference", "start": "2020-07-05", "end": "2020-07-05", "small": 1, "medium": 1, "large": 0 }
+{ "command": "list", "venue": "ElecEng Building" }
+{ "command": "cancel", "id": "Safety Induction Training" }
+{ "command": "change", "id": "Water Jet Training", "start": "2020-07-05", "end": "2020-07-06", "small": 0, "medium": 0, "large": 1 }
+
+{ "command": "list", "venue": "MechEng Building" }
+{ "command": "list", "venue": "ElecEng Building" }

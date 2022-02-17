@@ -1,0 +1,86 @@
+{"status": "rejected"}
+{
+    "venue": "Village",
+    "rooms": [
+      "1201",
+      "801"
+    ],
+    "status": "success"
+}
+{
+    "venue": "Hall",
+    "rooms": ["101"],
+    "status": "success"
+}
+{
+    "venue": "Village",
+    "rooms": ["801"],
+    "status": "success"
+}
+[
+    {
+      "reservations": [{
+        "start": "2020-06-25",
+        "end": "2020-06-25",
+        "id": "Weekly Meeting"
+      }],
+      "room": "1201"
+    },
+    {
+      "reservations": [
+        {
+          "start": "2020-06-25",
+          "end": "2020-06-25",
+          "id": "Weekly Meeting"
+        },
+        {
+          "start": "2020-06-27",
+          "end": "2020-06-29",
+          "id": "Conference"
+        }
+      ],
+      "room": "801"
+    }
+]
+[{
+    "reservations": [],
+    "room": "101"
+}]
+{"status": "rejected"}
+{
+    "venue": "Village",
+    "rooms": ["1201"],
+    "status": "success"
+}
+[
+    {
+      "reservations": [
+        {
+          "start": "2020-06-25",
+          "end": "2020-06-25",
+          "id": "Weekly Meeting"
+        },
+        {
+          "start": "2020-06-26",
+          "end": "2020-06-28",
+          "id": "Social Ball"
+        }
+      ],
+      "room": "1201"
+    },
+    {
+      "reservations": [
+        {
+          "start": "2020-06-25",
+          "end": "2020-06-25",
+          "id": "Weekly Meeting"
+        },
+        {
+          "start": "2020-06-27",
+          "end": "2020-06-29",
+          "id": "Conference"
+        }
+      ],
+      "room": "801"
+    }
+]

@@ -1,0 +1,12 @@
+{ "command": "room", "venue": "Village", "room": "1201", "size": "small" }
+{ "command": "room", "venue": "Village", "room": "801", "size": "medium" }
+{ "command": "room", "venue": "Hall", "room": "101", "size": "large" }
+{ "command": "request", "id": "Weekly Meeting", "start": "2020-06-25", "end": "2020-06-25", "small": 1, "medium": 1, "large": 1 }
+{ "command": "request", "id": "Weekly Meeting", "start": "2020-06-25", "end": "2020-06-25", "small": 1, "medium": 1, "large": 0 }
+{ "command": "request", "id": "Conference", "start": "2020-06-24", "end": "2020-06-27", "small": 0, "medium": 0, "large": 1 }
+{ "command": "change", "id": "Conference", "start": "2020-06-27", "end": "2020-06-29", "small": 0, "medium": 1, "large": 0 }
+{ "command": "list", "venue": "Village" }
+{ "command": "list", "venue": "Hall" }
+{ "command": "request", "id": "Social Ball", "start": "2020-06-25", "end": "2020-06-28", "small": 1, "medium": 0, "large": 0}
+{ "command": "request", "id": "Social Ball", "start": "2020-06-26", "end": "2020-06-28", "small": 1, "medium": 0, "large": 0}
+{ "command": "list", "venue": "Village" }

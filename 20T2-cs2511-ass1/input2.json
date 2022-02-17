@@ -1,0 +1,16 @@
+{ "command": "request", "id": "Holiday", "start": "2020-06-30", "end": "2020-07-01", "small": 2, "medium": 2, "large": 0 }
+{ "command": "room", "venue": "UNSW", "room": "Leighten Hall", "size": "large" }
+{ "command": "room", "venue": "UNSW", "room": "Music Room", "size": "small" }
+{ "command": "room", "venue": "UNSW", "room": "Webster", "size": "Large" }
+{ "command": "room", "venue": "Ainsworth", "room": "201", "size": "large" }
+{ "command": "room", "venue": "Ainsworth", "room": "Design Next Studio", "size": "large" }
+{ "command": "room", "venue": "Ainsworth", "room": "Meeting Room", "size": "medium" }
+{ "command": "request", "id": "CSE Career Expo", "start": "2020-07-01", "end": "2020-07-01", "small": 0, "medium": 0, "large": 1 }
+{ "command": "request", "id": "UNSW Career Expo", "start": "2020-06-30", "end": "2020-07-03", "small": 0, "medium": 0, "large": 2 }
+{ "command": "request", "id": "Conference", "start": "2020-07-05", "end": "2020-07-05", "small": 0, "medium": 1, "large": 1 }
+{ "command": "change", "id": "Conference", "start": "2020-07-03", "end": "2020-07-04", "small": 0, "medium": 1, "large": 1 }
+{ "command": "list", "venue": "Ainsworth" }
+{ "command": "request", "id": "DBF Introduction Talk", "start": "2020-06-30", "end": "2020-06-30", "small": 0, "medium": 1, "large": 0 }
+{ "command": "cancel", "id": "UNSW Career Expo" }
+{ "command": "list", "venue": "Ainsworth" }
+{ "command": "list", "venue": "UNSW" }

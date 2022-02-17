@@ -1,0 +1,108 @@
+{"status": "rejected"}
+{
+    "venue": "UNSW",
+    "rooms": ["Leighten Hall"],
+    "status": "success"
+}
+{
+    "venue": "Ainsworth",
+    "rooms": [
+      "201",
+      "Design Next Studio"
+    ],
+    "status": "success"
+}
+{
+    "venue": "Ainsworth",
+    "rooms": [
+      "201",
+      "Meeting Room"
+    ],
+    "status": "success"
+}
+{"status": "rejected"}
+[
+    {
+      "reservations": [
+        {
+          "start": "2020-06-30",
+          "end": "2020-07-03",
+          "id": "UNSW Career Expo"
+        },
+        {
+          "start": "2020-07-05",
+          "end": "2020-07-05",
+          "id": "Conference"
+        }
+      ],
+      "room": "201"
+    },
+    {
+      "reservations": [{
+        "start": "2020-06-30",
+        "end": "2020-07-03",
+        "id": "UNSW Career Expo"
+      }],
+      "room": "Design Next Studio"
+    },
+    {
+      "reservations": [{
+        "start": "2020-07-05",
+        "end": "2020-07-05",
+        "id": "Conference"
+      }],
+      "room": "Meeting Room"
+    }
+]
+{
+    "venue": "Ainsworth",
+    "rooms": ["Meeting Room"],
+    "status": "success"
+}
+[
+    {
+      "reservations": [{
+        "start": "2020-07-05",
+        "end": "2020-07-05",
+        "id": "Conference"
+      }],
+      "room": "201"
+    },
+    {
+      "reservations": [],
+      "room": "Design Next Studio"
+    },
+    {
+      "reservations": [
+        {
+          "start": "2020-06-30",
+          "end": "2020-06-30",
+          "id": "DBF Introduction Talk"
+        },
+        {
+          "start": "2020-07-05",
+          "end": "2020-07-05",
+          "id": "Conference"
+        }
+      ],
+      "room": "Meeting Room"
+    }
+]
+[
+    {
+      "reservations": [{
+        "start": "2020-07-01",
+        "end": "2020-07-01",
+        "id": "CSE Career Expo"
+      }],
+      "room": "Leighten Hall"
+    },
+    {
+      "reservations": [],
+      "room": "Music Room"
+    },
+    {
+      "reservations": [],
+      "room": "Webster"
+    }
+]

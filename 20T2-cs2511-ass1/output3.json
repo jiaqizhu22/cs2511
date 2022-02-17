@@ -1,0 +1,45 @@
+{
+    "venue": "ElecEng Building",
+    "rooms": ["Makerspace"],
+    "status": "success"
+}
+{"status": "rejected"}
+{
+    "venue": "MechEng Building",
+    "rooms": ["Makerspace"],
+    "status": "success"
+}
+{"status": "rejected"}
+{
+    "venue": "Webster",
+    "rooms": [
+      "Training Room 1",
+      "Music Room"
+    ],
+    "status": "success"
+}
+[{
+    "reservations": [{
+      "start": "2020-07-01",
+      "end": "2020-07-05",
+      "id": "Safety Induction Training"
+    }],
+    "room": "Makerspace"
+}]
+{
+    "venue": "ElecEng Building",
+    "rooms": ["Makerspace"],
+    "status": "success"
+}
+[{
+    "reservations": [],
+    "room": "Makerspace"
+}]
+[{
+    "reservations": [{
+      "start": "2020-07-05",
+      "end": "2020-07-06",
+      "id": "Water Jet Training"
+    }],
+    "room": "Makerspace"
+}]
